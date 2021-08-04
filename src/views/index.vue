@@ -6,7 +6,6 @@
         v-model="tab"
         color="deep-purple accent-4"
         right
-        @change="seasonChange"
       >
         <v-tab v-for="(season, key) in seasons" :key="key">
           {{ key }}
